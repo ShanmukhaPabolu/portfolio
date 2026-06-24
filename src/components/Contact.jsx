@@ -52,7 +52,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="section">
-      <SectionEyebrow index="09">Get In Touch</SectionEyebrow>
+      <SectionEyebrow index="08">Get In Touch</SectionEyebrow>
       <h2 className="font-display text-3xl sm:text-4xl font-semibold mt-3 mb-12">
         Let&rsquo;s Connect
       </h2>

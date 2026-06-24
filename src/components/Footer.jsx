@@ -22,8 +22,8 @@ export default function Footer() {
     <footer className="relative border-t border-slate-900/5 dark:border-white/[0.08]">
       <div className="section !py-12 flex flex-col sm:flex-row items-center justify-between gap-8">
         <div className="text-center sm:text-left">
-          <p className="font-display font-semibold text-lg">
-            {site.shortName.split(" ")[0]}
+          <p className="font-display font-semibold text-lg uppercase tracking-tight">
+            SHANMUKHA RANI
             <span className="text-signal-500">.</span>
           </p>
           <p className="font-mono text-xs text-slate-500 dark:text-paper/50 mt-1">

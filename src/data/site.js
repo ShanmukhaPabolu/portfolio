@@ -3,8 +3,8 @@
 // the actual URL/username, so swap it for the real one.
 
 export const site = {
-  name: "Pabolu SVSS Shanmukha Rani",
-  shortName: "Shanmukha Rani",
+  name: "SVSS SHANMUKHA RANI PABOLU",
+  shortName: "SVSS SHANMUKHA RANI PABOLU",
   role: "Full-Stack Developer",
   tagline:
     "Building scalable, AI-powered web applications end to end — from database to deployment.",
@@ -19,7 +19,7 @@ export const site = {
   ],
   social: {
     github: "https://github.com/ShanmukhaPabolu",
-    linkedin: "https://linkedin.com/", // TODO: replace with actual LinkedIn URL
+    linkedin: "https://www.linkedin.com/in/shanmukha-rani-1a8a432ba",
     leetcode: "https://leetcode.com/u/shanmukha_pabolu/",
     gfg: "https://www.geeksforgeeks.org/profile/shanmukh1jp8?tab=activity",
   },

@@ -90,14 +90,14 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="eyebrow justify-center mb-5 flex"
         >
-          available for full-stack &amp; AI engineering roles
+          available
         </motion.p>
 
         <motion.h1
           initial={{ opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="font-display font-semibold text-balance text-4xl sm:text-6xl md:text-7xl tracking-tight"
+          className="font-display font-semibold text-balance text-3xl sm:text-4xl md:text-5xl tracking-tight"
         >
           {site.shortName}
         </motion.h1>

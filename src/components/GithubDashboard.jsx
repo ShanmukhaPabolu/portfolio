@@ -70,20 +70,9 @@ export default function GithubDashboard() {
   return (
     <section id="github" className="section">
       <SectionEyebrow index="07">Live Stats</SectionEyebrow>
-      <h2 className="font-display text-3xl sm:text-4xl font-semibold mt-3 mb-2">
+      <h2 className="font-display text-3xl sm:text-4xl font-semibold mt-3 mb-10">
         GitHub Analytics
       </h2>
-      <p className="text-slate-600 dark:text-paper/60 mb-10 font-mono text-sm">
-        Pulled live from the GitHub API for{" "}
-        <a
-          href={site.social.github}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-signal-600 dark:text-signal-400 underline underline-offset-4"
-        >
-          @{site.githubUsername}
-        </a>
-      </p>
 
       {status === "error" && (
         <p className="glass rounded-xl p-5 font-mono text-sm text-amber-600 dark:text-amber-400">

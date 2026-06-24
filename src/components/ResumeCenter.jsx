@@ -29,7 +29,7 @@ export default function ResumeCenter() {
 
   return (
     <section id="resume" className="section">
-      <SectionEyebrow index="08">Resume</SectionEyebrow>
+      <SectionEyebrow index="06">Resume</SectionEyebrow>
       <h2 className="font-display text-3xl sm:text-4xl font-semibold mt-3 mb-12">
         Resume Center
       </h2>
