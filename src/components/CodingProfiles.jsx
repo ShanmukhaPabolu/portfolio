@@ -16,7 +16,7 @@ const iconMap = {
 const linkMap = {
   github: site.social.github,
   leetcode: site.social.leetcode,
-  gfg: "https://geeksforgeeks.org/",
+  gfg: site.social.gfg,
 };
 
 export default function CodingProfiles() {

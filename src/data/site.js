@@ -18,13 +18,14 @@ export const site = {
     "Modern Web Experiences",
   ],
   social: {
-    github: "https://github.com/", // TODO: replace with actual GitHub profile URL
+    github: "https://github.com/ShanmukhaPabolu",
     linkedin: "https://linkedin.com/", // TODO: replace with actual LinkedIn URL
-    leetcode: "https://leetcode.com/", // TODO: replace with actual LeetCode profile URL
+    leetcode: "https://leetcode.com/u/shanmukha_pabolu/",
+    gfg: "https://www.geeksforgeeks.org/profile/shanmukh1jp8?tab=activity",
   },
   // Used to fetch live stats for the GitHub Analytics section.
   // TODO: replace with the real GitHub username (no @, no URL).
-  githubUsername: "shanmukha-rani",
+  githubUsername: "ShanmukhaPabolu",
 };
 
 export const education = {

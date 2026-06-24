@@ -40,24 +40,21 @@ export const codingProfiles = [
   {
     id: "github",
     name: "GitHub",
-    // TODO: replace with real username
-    username: "shanmukha-rani",
+    username: "ShanmukhaPabolu",
     stat: "Open-source & project repositories",
     color: "#E6EDF7",
   },
   {
     id: "leetcode",
     name: "LeetCode",
-    // TODO: replace with real username
-    username: "shanmukha_rani",
+    username: "shanmukha_pabolu",
     stat: "Problem solving & DSA practice",
     color: "#FBBF24",
   },
   {
     id: "gfg",
     name: "GeeksforGeeks",
-    // TODO: replace with real username
-    username: "shanmukharani",
+    username: "SVSS SHANMUKHA RANI PABOLU",
     stat: "DSA articles & coding practice",
     color: "#5EEAD4",
   },
