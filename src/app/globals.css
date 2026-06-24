@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-signal-400/0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-image: theme("backgroundImage.grid-light");
+    background-size: 42px 42px;
+  }
+  .dark body {
+    background-image: theme("backgroundImage.grid-dark");
+  }
+  ::selection {
+    @apply bg-signal-400/30 text-inherit;
+  }
+  :focus-visible {
+    outline: 2px solid theme("colors.signal.400");
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* eyebrow label styled like a code comment — ties into the dev/terminal identity */
+  .eyebrow {
+    @apply font-mono text-xs sm:text-sm tracking-wide text-signal-600 dark:text-signal-400;
+  }
+  .eyebrow::before {
+    content: "// ";
+    @apply opacity-60;
+  }
+
+  /* glassmorphism surface */
+  .glass {
+    @apply bg-white/60 dark:bg-white/[0.04] backdrop-blur-xl border border-slate-900/5 dark:border-white/[0.08];
+  }
+
+  /* HUD-style corner brackets, the page's signature motif */
+  .bracket-corners {
+    position: relative;
+  }
+  .bracket-corners::before,
+  .bracket-corners::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-color: theme("colors.signal.400");
+    opacity: 0.55;
+    transition: opacity 0.25s ease;
+  }
+  .bracket-corners::before {
+    top: -1px;
+    left: -1px;
+    border-top: 2px solid;
+    border-left: 2px solid;
+  }
+  .bracket-corners::after {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+  }
+  .bracket-corners:hover::before,
+  .bracket-corners:hover::after {
+    opacity: 1;
+  }
+
+  .section {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8 py-20 sm:py-28;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-full bg-signal-500 text-ink px-6 py-3 font-semibold text-sm tracking-wide hover:bg-signal-400 hover:shadow-glow transition-all duration-200;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 rounded-full border border-slate-900/15 dark:border-white/15 px-6 py-3 font-semibold text-sm tracking-wide hover:border-signal-400 hover:text-signal-600 dark:hover:text-signal-400 transition-all duration-200;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
